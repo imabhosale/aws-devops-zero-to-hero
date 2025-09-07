@@ -2,3 +2,10 @@
 1) what is cloud, its deployment type , why to public cloud 
 2) what is IAM -- User, group, permission, role its use cases for authetication and authorization
 2) what is ec2, conecting to ec2 , launch jenkins on ec2 , security group 
+
+--day-02 (07/09)
+1) what is VPC the components associated with VPC 
+2)Route53
+3)user request --> Internet gateway--> route 53 resolve dns to ip--> public subnet --> Load balancer--> Route table (having private ip and route table)
+   --> NACL --> private subnet --> security group --> EC2 instace-->app --> resonse 
+4) Entire Architecture and practical of day 8
